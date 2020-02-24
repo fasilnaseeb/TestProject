@@ -19,7 +19,7 @@ public class LoginTestScripts extends BaseTest {
 
 	
 	
-    @Test
+   // @Test
 	public void loginTest() throws Throwable {
 		
 		
@@ -69,8 +69,11 @@ public class LoginTestScripts extends BaseTest {
     	  Reporter.log("smoke",true);
 	   
  }
-     
-	
+     @Test
+	public void  methtest() {
+		
+		Reporter.log("Test",true);
+	}
 	
 	
 	

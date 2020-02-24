@@ -1,261 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="4" failed="0" ignored="2" total="6" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Test Test Start]]>
+      <![CDATA[Default test Test Start]]>
     </line>
     <line>
-      <![CDATA[meth Test Start]]>
+      <![CDATA[methtest Test Start]]>
     </line>
     <line>
-      <![CDATA[meth Test Skip]]>
+      <![CDATA[Test]]>
     </line>
     <line>
-      <![CDATA[meth0 Test Start]]>
-    </line>
-    <line>
-      <![CDATA[meth0 Test Skip]]>
-    </line>
-    <line>
-      <![CDATA[meth1 Test Start]]>
-    </line>
-    <line>
-      <![CDATA[meth1 Test Skip]]>
-    </line>
-    <line>
-      <![CDATA[loginTest Test Start]]>
-    </line>
-    <line>
-      <![CDATA[loginTest Test Skip]]>
-    </line>
-    <line>
-      <![CDATA[Test Test Finish]]>
+      <![CDATA[methtest Test Finish]]>
     </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="155" started-at="2020-02-24T19:23:32 IST" finished-at="2020-02-24T19:23:33 IST">
+  <suite name="Default suite" duration-ms="17584" started-at="2020-02-24T19:35:13 IST" finished-at="2020-02-24T19:35:31 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="155" started-at="2020-02-24T19:23:32 IST" finished-at="2020-02-24T19:23:33 IST">
-      <class name="com.crm.TestScript.Testtwo">
-        <test-method status="SKIP" signature="meth0()[pri:0, instance:com.crm.TestScript.Testtwo@2758fe70]" name="meth0" duration-ms="0" started-at="2020-02-24T19:23:33 IST" finished-at="2020-02-24T19:23:33 IST">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method browsers but has not been marked @Optional or defined
-in C:\Users\Albin K Babu\git\TestProject\TestProjec\Testone.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method browsers but has not been marked @Optional or defined
-in C:\Users\Albin K Babu\git\TestProject\TestProjec\Testone.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:289)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
-at org.testng.internal.Parameters.createParameters(Parameters.java:721)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
-at org.testng.TestRunner.beforeRun(TestRunner.java:613)
-at org.testng.TestRunner.run(TestRunner.java:584)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-            <line>
-              <![CDATA[meth0 Test Skip]]>
-            </line>
-            <line>
-              <![CDATA[meth1 Test Start]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- meth0 -->
-        <test-method status="SKIP" signature="meth1()[pri:0, instance:com.crm.TestScript.Testtwo@2758fe70]" name="meth1" duration-ms="0" started-at="2020-02-24T19:23:33 IST" finished-at="2020-02-24T19:23:33 IST">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method browsers but has not been marked @Optional or defined
-in C:\Users\Albin K Babu\git\TestProject\TestProjec\Testone.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method browsers but has not been marked @Optional or defined
-in C:\Users\Albin K Babu\git\TestProject\TestProjec\Testone.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:289)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
-at org.testng.internal.Parameters.createParameters(Parameters.java:721)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
-at org.testng.TestRunner.beforeRun(TestRunner.java:613)
-at org.testng.TestRunner.run(TestRunner.java:584)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-            <line>
-              <![CDATA[meth1 Test Skip]]>
-            </line>
-            <line>
-              <![CDATA[loginTest Test Start]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- meth1 -->
-      </class> <!-- com.crm.TestScript.Testtwo -->
-      <class name="com.crm.TestScript.Testone">
-        <test-method status="FAIL" signature="browsers(java.lang.String)[pri:0, instance:com.crm.TestScript.Testone@2b552920]" name="browsers" is-config="true" duration-ms="-1582552412888" started-at="2020-02-24T19:23:32 IST" finished-at="1970-01-01T05:30:00 IST">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method browsers but has not been marked @Optional or defined
-in C:\Users\Albin K Babu\git\TestProject\TestProjec\Testone.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method browsers but has not been marked @Optional or defined
-in C:\Users\Albin K Babu\git\TestProject\TestProjec\Testone.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:289)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
-at org.testng.internal.Parameters.createParameters(Parameters.java:721)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
-at org.testng.TestRunner.beforeRun(TestRunner.java:613)
-at org.testng.TestRunner.run(TestRunner.java:584)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browsers -->
-        <test-method status="SKIP" signature="meth()[pri:0, instance:com.crm.TestScript.Testone@2b552920]" name="meth" duration-ms="0" started-at="2020-02-24T19:23:32 IST" finished-at="2020-02-24T19:23:32 IST">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method browsers but has not been marked @Optional or defined
-in C:\Users\Albin K Babu\git\TestProject\TestProjec\Testone.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method browsers but has not been marked @Optional or defined
-in C:\Users\Albin K Babu\git\TestProject\TestProjec\Testone.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:289)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
-at org.testng.internal.Parameters.createParameters(Parameters.java:721)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
-at org.testng.TestRunner.beforeRun(TestRunner.java:613)
-at org.testng.TestRunner.run(TestRunner.java:584)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
-          <reporter-output>
-            <line>
-              <![CDATA[meth Test Skip]]>
-            </line>
-            <line>
-              <![CDATA[meth0 Test Start]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- meth -->
-      </class> <!-- com.crm.TestScript.Testone -->
+    <test name="Default test" duration-ms="17584" started-at="2020-02-24T19:35:13 IST" finished-at="2020-02-24T19:35:31 IST">
       <class name="com.crm.TestMeths.LoginTestScripts">
-        <test-method status="SKIP" signature="loginTest()[pri:0, instance:com.crm.TestMeths.LoginTestScripts@1f36e637]" name="loginTest" duration-ms="0" started-at="2020-02-24T19:23:33 IST" finished-at="2020-02-24T19:23:33 IST">
-          <exception class="org.testng.TestNGException">
-            <message>
-              <![CDATA[
-Parameter 'browser' is required by BeforeTest on method browsers but has not been marked @Optional or defined
-in C:\Users\Albin K Babu\git\TestProject\TestProjec\Testone.xml]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.testng.TestNGException: 
-Parameter 'browser' is required by BeforeTest on method browsers but has not been marked @Optional or defined
-in C:\Users\Albin K Babu\git\TestProject\TestProjec\Testone.xml
-at org.testng.internal.Parameters.createParams(Parameters.java:289)
-at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)
-at org.testng.internal.Parameters.createParameters(Parameters.java:721)
-at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:623)
-at org.testng.TestRunner.beforeRun(TestRunner.java:613)
-at org.testng.TestRunner.run(TestRunner.java:584)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
-at org.testng.SuiteRunner.run(SuiteRunner.java:304)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
-at org.testng.TestNG.runSuites(TestNG.java:1032)
-at org.testng.TestNG.run(TestNG.java:1000)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.testng.TestNGException -->
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.crm.TestMeths.LoginTestScripts@43814d18]" name="openBrowser" is-config="true" duration-ms="17503" started-at="2020-02-24T19:35:13 IST" finished-at="2020-02-24T19:35:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="methtest()[pri:0, instance:com.crm.TestMeths.LoginTestScripts@43814d18]" name="methtest" duration-ms="19" started-at="2020-02-24T19:35:31 IST" finished-at="2020-02-24T19:35:31 IST">
           <reporter-output>
             <line>
-              <![CDATA[loginTest Test Skip]]>
+              <![CDATA[methtest Test Start]]>
             </line>
             <line>
-              <![CDATA[Test Test Finish]]>
+              <![CDATA[Test]]>
+            </line>
+            <line>
+              <![CDATA[methtest Test Finish]]>
             </line>
           </reporter-output>
-        </test-method> <!-- loginTest -->
+        </test-method> <!-- methtest -->
       </class> <!-- com.crm.TestMeths.LoginTestScripts -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
