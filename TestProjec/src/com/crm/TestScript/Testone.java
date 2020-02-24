@@ -12,5 +12,6 @@ public class Testone extends BaseTest {
 	public void meth() {
 		Reporter.log("Test runner2",true);
 	}
+	
 
 }
