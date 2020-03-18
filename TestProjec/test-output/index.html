@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
-                    <span>C:\Users\Albin K Babu\AppData\Local\Temp\testng-eclipse-1710804419\testng-customsuite.xml</span>
+                    <span>C:\Users\Albin K Babu\AppData\Local\Temp\testng-eclipse-1167700095\testng-customsuite.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,7 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">1 method,   1 passed</span>
+                    <span class="method-stats">2 methods,   2 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -100,6 +100,11 @@
                       <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
                     </span>
                     <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.crm.TestMeths.LoginTestScripts" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="com.crm.TestMeths.LoginTestScripts" hash-for-method="methtest">methtest</a> <!-- method navigator-link -->
@@ -125,6 +130,13 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
+                  <a name="loginTest">
+                  </a> <!-- loginTest -->
+                  <span class="method-name">loginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="methtest">
                   </a> <!-- methtest -->
                   <span class="method-name">methtest</span>
@@ -135,7 +147,7 @@
         </div> <!-- panel Default_suite -->
         <div panel-name="test-xml-Default_suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Albin K Babu\AppData\Local\Temp\testng-eclipse-1710804419\testng-customsuite.xml</span>
+            <span class="header-content">C:\Users\Albin K Babu\AppData\Local\Temp\testng-eclipse-1167700095\testng-customsuite.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -184,16 +196,20 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(1);
+data.addRows(2);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'methtest')
+data.setCell(0, 1, 'loginTest')
 data.setCell(0, 2, 'com.crm.TestMeths.LoginTestScripts')
-data.setCell(0, 3, 19);
+data.setCell(0, 3, 2833);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'methtest')
+data.setCell(1, 2, 'com.crm.TestMeths.LoginTestScripts')
+data.setCell(1, 3, 3);
 window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 19 ms</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Default_suite">
               </div> <!-- times-div-Default_suite -->
             </div> <!-- times-div -->
@@ -204,6 +220,13 @@ return data;
             <span class="header-content">Reporter output for Default suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">loginTest</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">loginTest Test Start</span>
+                <span class="reporter-method-output">loginTest Test Finish</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">methtest</span>
               <div class="reporter-method-output-div">
@@ -233,8 +256,12 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-class before -->
               <div class="test-method">
+                <span class="method-name">loginTest</span>
+                <span class="method-start">17174 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">methtest</span>
-                <span class="method-start">17525 ms</span>
+                <span class="method-start">20020 ms</span>
               </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

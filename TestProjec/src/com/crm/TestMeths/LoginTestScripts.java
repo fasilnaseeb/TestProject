@@ -19,7 +19,7 @@ public class LoginTestScripts extends BaseTest {
 
 	
 	
-   // @Test
+    @Test
 	public void loginTest() throws Throwable {
 		
 		
